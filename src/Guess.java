@@ -8,6 +8,13 @@ import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 public class Guess
 {
+    /*
+        Initializes all necessary variables, plays the intro
+        Main game loop repeats the play method and keeps
+        track of total games/guesses and the best guess
+        uses playAgain to see if the player would like to go again
+        calls results to display the stats before close
+     */
     public static void main(String[] args)
     {
         //initializing main's variables
