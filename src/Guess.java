@@ -2,6 +2,11 @@
     This is a guessing game played in the console for 1 player.
     The range of numbers always starts at 1 and ends with the given "max" number
     Players can play multiple games per session and when exiting, will be shown stats
+
+    For extra credit:
+    Line 94-108 I used try/catch to handle the exception for an input not being an int
+    Line 160-167 I used switch/case to check for y/n in the first character and reject other inputs
+    I also believe it is (relatively) crash proof, assuming the user is not intentionally trying to.
  */
 
 import java.util.Scanner;
